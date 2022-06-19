@@ -1,0 +1,147 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1a202c;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link_title,
+.nav_link{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    transition: .5s;
+    text-transform: uppercase;
+    
+
+}
+
+
+
+.nav_link_title:hover,
+.nav_link:hover{
+    color: rgb(224, 169, 101);
+   transition: .5s;
+
+}
+
+.nav_all_links{
+    margin: 1rem 0;
+}
+.nav_link{
+    padding: 0 1rem;
+    position: relative;
+}
+
+
+
+/* hero */
+
+.hero_part{
+    margin: 4rem auto;
+    padding: 1rem 0;
+    background-color: rgb(253, 220, 180);
+    max-width: 700px;
+    border-radius: 10px;
+    color: rgb(19, 19, 19);
+}
+
+
+.h_100{
+    min-height: 100vh;
+}
+
+
+.hero_img{
+margin: 0 auto;
+max-width: 50%;
+display: block;
+width: auto;
+border-radius: 50%;
+padding: 1rem ;
+
+
+}
+
+
+.titel,.details,.descrtiption_hero{
+    line-height: 24px;
+    padding: 0 1rem ;
+    text-align: center;
+}
+
+
+/* social icon */
+
+
+.social_link{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.social_img {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+ 
+}
+
+.social_img:hover {
+    color: brown;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 728px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 962px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+
